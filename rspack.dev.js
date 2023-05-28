@@ -9,8 +9,8 @@ const config = {
     entry: './src/main.js',
     output: {
         filename: '[name].js',
-        path: path.resolve(__dirname, 'dist/webpack'),
-        publicPath: '/dist/webpack/',
+        path: path.resolve(__dirname, 'dist/rspack'),
+        publicPath: '/dist/rspack/',
     },
     resolve: {
         extensions: ['.js']
